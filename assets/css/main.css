@@ -1738,7 +1738,7 @@ button:active,
 
 /* Footer */
 #footer {
-  margin-left: 375px;
+  margin-left: 200px;
   text-align: center;
   background-color: #dce3e2;
   padding: 3em 0 4em 0;
@@ -1765,7 +1765,7 @@ button:active,
 
 /* Main */
 #main {
-  margin-left: 375px;
+  margin-left: 200px;
 }
 #main > section {
   margin: 0;
