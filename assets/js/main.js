@@ -139,6 +139,7 @@
 			});
 			tblRow += '<header>' +
 				'<h3>' + f.title + '</h3>' +
+				'<h4>' + f.year + '</h4>' +
 				'<p>' + f.desc + '</p>' +
 				'</header>' +
 				'</article>';
@@ -162,11 +163,20 @@
 		});
 
 		$.each(academic, function(i, f) {
-			var tblRow = '<tr>' + '<td>' + f.year + '</td>' +
+			if (i % 2 === 0) {
+
+				var tblRow = '<tr>'
+			} else {
+
+				var tblRow = '<tr style="background-color: #f4f4f4">'
+			}
+			tblRow +=
+				'<td>' + f.year + '</td>' +
 				'<td>' +
 				f.title + ', ' +
 				f.authors + ', ' +
-				f.venue + '</td>' + '</tr>';
+				f.venue + '</td>' +
+				'</tr>';
 
 			$(tblRow).appendTo("#academic-div table");
 		});
