@@ -6,6 +6,7 @@
 
 (function($) {
 
+
 	var $window = $(window),
 		$body = $('body'),
 		$nav = $('#nav');
@@ -120,5 +121,55 @@
 			visibleClass: 'header-visible'
 		});
 
+
+	$.getJSON('assets/js/data.json', function(data) {
+		var projects = data.projects;
+		projects.sort(function(a, b) {
+			var keyA = new Date(a.year),
+				keyB = new Date(b.year);
+			if (keyA < keyB) return 1;
+			if (keyA > keyB) return -1;
+			return 0;
+		});
+
+		$.each(projects, function(i, f) {
+			var tblRow = '<article class="item grid-item col-4 col-12-mobile">'
+			$.each(f.imgs, function(i, img) {
+				tblRow += '<img class="image fit" src=' + '"' + img + '"' + 'alt="">';
+			});
+			tblRow += '<header>' +
+				'<h3>' + f.title + '</h3>' +
+				'<p>' + f.desc + '</p>' +
+				'</header>' +
+				'</article>';
+
+			$(tblRow).appendTo("#projects-div");
+		});
+
+		var $grid = $('.grid').imagesLoaded(function() {
+			$grid.masonry({
+				itemSelector: '.grid-item'
+			});
+		});
+
+		var academic = data.academic;
+		academic.sort(function(a, b) {
+			var keyA = new Date(a.year),
+				keyB = new Date(b.year);
+			if (keyA < keyB) return 1;
+			if (keyA > keyB) return -1;
+			return 0;
+		});
+
+		$.each(academic, function(i, f) {
+			var tblRow = '<tr>' + '<td>' + f.year + '</td>' +
+				'<td>' +
+				f.title + ', ' +
+				f.authors + ', ' +
+				f.venue + '</td>' + '</tr>';
+
+			$(tblRow).appendTo("#academic-div table");
+		});
+	});
 
 })(jQuery);

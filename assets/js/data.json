@@ -1,0 +1,119 @@
+{
+  "projects": [
+    {
+      "title": "Bachelor Thesis",
+      "desc": "An Artificial Neural Network based adaptive non-linear control strategy, with highlight on its capability as a compliant control scheme. The thesis involved simulation and control design, mechanical and PCB design, with custom embedded software.",
+      "imgs": ["images/bsc_2.png"],
+      "year": 2015
+    },
+    {
+      "title": "Vincent™",
+      "desc": "An AI system that turns sketches into art. It utilises a GAN architecture to mimic human creativity and imagination.",
+      "imgs": ["images/vincent_blend_2.png"],
+      "year": 2017
+    },
+    {
+      "imgs": ["images/bixler_1.jpg"],
+      "title": "Master Thesis",
+      "desc": "Dynamic Gain Scheduling control for the Bixler aircraft in highly non-linear flight conditions. The project included simulation and control design, custom sensor design and integration and software implementation on the on-board flight controller.",
+      "year": 2016
+    },
+    {
+      "imgs": ["images/xit_1.png", "images/xit_2.png"],
+      "title": "Electric hokey cart",
+      "desc": "An electric wheelchair for disabled people to play indoor hokey. I worked on the control system, embedded controller and the power-electronics.",
+      "year": 2014
+    },
+
+    {
+      "imgs": ["images/deepray.jpeg"],
+      "title": "Deepray™",
+      "desc": "An AI system that reconstructs highly distorted images in real-time. Using a GAN it can go beyond simple image restoration when huge amount of information is lost. It is able to fill up missing details in a context aware way that it learnt from the training dataset.",
+      "year": 2018
+    },
+
+    {
+      "imgs": ["images/dronex.jpg"],
+      "title": "Internship at DroneX",
+      "desc": "I worked on control algorithms and software for drones and bipedal systems. Also, I had the chance to experience working in a dynamic start-up environment.",
+      "year": 2016
+    },
+
+    {
+      "imgs": ["images/satellite_coverage.png"],
+      "title": "Multidisciplinary optimisation",
+      "desc": "A satellite coverage project that involved a multi-step design process with optimisation in each step to get the best possible coverage for the given constraints.",
+      "year": 2016
+    },
+
+    {
+      "imgs": ["images/emicab_1.png"],
+      "title": "EMICAB",
+      "desc": "<a href=\"http://www.emicab.eu/\">EMICAB</a> was an international collaborative research project to develop a hexapod robot. I was working on a novel tactile sensitive fingertip design for the legs.",
+      "year": 2014
+    },
+
+    {
+      "imgs": ["images/imav_1.png", "images/imav_2.png"],
+      "title": "Drone simulation",
+      "desc": "A simulation environment in Gazebo with the corresponding controller in Simulink communicating over ROS. It was developed for the <a href= \"http://www.imav2017.org/virtual-challenge/\"> IMAV 2017</a> student competition.",
+      "year": 2017
+    },
+
+    {
+      "imgs": ["images/kidnapped_lego.png"],
+      "title": "The kidnapped robot",
+      "desc": "A project to address the kidnapped robot problem, involving autonomous localisation and mapping in an uncertain environment.",
+      "year": 2016
+    },
+
+    {
+      "imgs": ["images/planar_rrr.png"],
+      "title": "Robot kinematics and dynamics",
+      "desc": "Simulation and control for several different robotic arm configurations.",
+      "year": 2015
+    },
+
+    {
+      "imgs": ["images/climber_1.jpg"],
+      "title": "Stepladder climber",
+      "desc": "A university project to build a robot that can climb a stepladder with very tight size and weight constraints.",
+      "year": 2013
+    }
+  ],
+  "academic": [
+    {
+      "year": 2021,
+      "title": "HetSAGE: Heterogenous Graph Neural Network for Relational Learning",
+      "authors": "V. Jankovics, M. Garcia Ortiz, E. Alonso",
+      "venue": "AAAI Proceedings"
+    },
+    {
+      "year": 2018,
+      "title": "Sketches into Art, V. Jankovics, Guest lecture",
+      "authors": "V. Jankovics",
+      "venue": "University Centre Peterborough"
+    },
+
+    {
+      "year": 2016,
+      "title": "Artificial neural network based compliant control for robot arms",
+      "authors": "V. Jankovics, S. Mátéfi-Tempfli and P. Manoonpong",
+      "venue": "Int. Conf. on the Simulation of Adaptive Behavior"
+    },
+
+    {
+      "year": 2014,
+      "title": "High resolution tactile sensors for curved robotic fingertips",
+      "authors": "A. Drimus, V. Jankovics, M. Gorsic, S. Mátéfi-Tempfli",
+      "venue": "Living Machines Proceedings"
+    },
+
+    {
+      "year": 2014,
+      "title": "Novel high resolution tactile robotic fingertips",
+      "authors": "A. Drimus, V. Jankovics, M. Gorsic. S. Mátéfi-Tempfli",
+      "venue": "IEEE Sensors Proceedings"
+    }
+  ]
+}
