@@ -2,118 +2,199 @@
   "projects": [
     {
       "title": "Bachelor Thesis",
-      "desc": "An Artificial Neural Network based adaptive non-linear control strategy, with highlight on its capability as a compliant control scheme. The thesis involved simulation and control design, mechanical and PCB design, with custom embedded software.",
       "imgs": ["images/bsc_2.png"],
+      "desc": "An Artificial Neural Network based adaptive non-linear control strategy, with highlight on its capability as a compliant control scheme. The thesis involved simulation and control design, mechanical and PCB design, with custom embedded software.",
       "year": 2015
     },
     {
       "title": "Vincent™",
-      "desc": "An AI system that turns sketches into art. It utilises a GAN architecture to mimic human creativity and imagination.",
       "imgs": ["images/vincent_blend_2.png"],
+      "desc": "An AI system that turns sketches into art. It utilises a GAN architecture to mimic human creativity and imagination. I developed the training code that made us able to efficiently experiment with new ideas by scaling up the training to utilize the internal infrastructure. A writeup is available <a href=\"https://www.cambridgeconsultants.com/sharpwave\">here</a>.",
       "year": 2017
     },
     {
-      "imgs": ["images/bixler_1.jpg"],
       "title": "Master Thesis",
+      "imgs": ["images/bixler_1.jpg"],
       "desc": "Dynamic Gain Scheduling control for the Bixler aircraft in highly non-linear flight conditions. The project included simulation and control design, custom sensor design and integration and software implementation on the on-board flight controller.",
       "year": 2016
     },
     {
-      "imgs": ["images/xit_1.png", "images/xit_2.png"],
       "title": "Electric hokey cart",
+      "imgs": ["images/xit_1.png", "images/xit_2.png"],
       "desc": "An electric wheelchair for disabled people to play indoor hokey. I worked on the control system, embedded controller and the power-electronics.",
       "year": 2014
     },
 
     {
-      "imgs": ["images/deepray.jpeg"],
       "title": "Deepray™",
-      "desc": "An AI system that reconstructs highly distorted images in real-time. Using a GAN it can go beyond simple image restoration when huge amount of information is lost. It is able to fill up missing details in a context aware way that it learnt from the training dataset.",
+      "imgs": ["images/deepray.jpeg"],
+      "desc": "An AI system that reconstructs highly distorted images in real-time. Using a GAN it can go beyond simple image restoration when huge amount of information is lost. It is able to fill up missing details in a context aware way that it learnt from the training dataset. I worked on adding ideas from the state-of-the-art research with combination of novel methods to our model. A writeup is available <a href=\"https://www.cambridgeconsultants.com/press-releases/turning-our-sketches-art-machine-learning\">here</a>.",
       "year": 2018
     },
 
     {
-      "imgs": ["images/dronex.jpg"],
       "title": "Internship at DroneX",
+      "imgs": ["images/dronex.jpg"],
       "desc": "I worked on control algorithms and software for drones and bipedal systems. Also, I had the chance to experience working in a dynamic start-up environment.",
       "year": 2016
     },
 
     {
-      "imgs": ["images/satellite_coverage.png"],
       "title": "Multidisciplinary optimisation",
+      "imgs": ["images/satellite_coverage.png"],
       "desc": "A satellite coverage project that involved a multi-step design process with optimisation in each step to get the best possible coverage for the given constraints.",
       "year": 2016
     },
 
     {
-      "imgs": ["images/emicab_1.png"],
       "title": "EMICAB",
+      "imgs": ["images/emicab_1.png"],
       "desc": "<a href=\"http://www.emicab.eu/\">EMICAB</a> was an international collaborative research project to develop a hexapod robot. I was working on a novel tactile sensitive fingertip design for the legs.",
       "year": 2014
     },
 
     {
-      "imgs": ["images/imav_1.png", "images/imav_2.png"],
       "title": "Drone simulation",
+      "imgs": ["images/imav_1.png", "images/imav_2.png"],
       "desc": "A simulation environment in Gazebo with the corresponding controller in Simulink communicating over ROS. It was developed for the <a href= \"http://www.imav2017.org/virtual-challenge/\"> IMAV 2017</a> student competition.",
       "year": 2017
     },
 
     {
-      "imgs": ["images/kidnapped_lego.png"],
       "title": "The kidnapped robot",
+      "imgs": ["images/kidnapped_lego.png"],
       "desc": "A project to address the kidnapped robot problem, involving autonomous localisation and mapping in an uncertain environment.",
       "year": 2016
     },
 
     {
-      "imgs": ["images/planar_rrr.png"],
       "title": "Robot kinematics and dynamics",
+      "imgs": ["images/planar_rrr.png"],
       "desc": "Simulation and control for several different robotic arm configurations.",
       "year": 2015
     },
 
     {
-      "imgs": ["images/climber_1.jpg"],
       "title": "Stepladder climber",
+      "imgs": ["images/climber_1.jpg"],
       "desc": "A university project to build a robot that can climb a stepladder with very tight size and weight constraints.",
       "year": 2013
+    },
+
+    {
+      "title": "Humanoid robot design",
+      "imgs": ["images/irobotx.jpg"],
+      "desc": "System architecture design of a humanoid walking robot for iRobotx. I developed the simulation and prototyped the real-time control algorithm using Simulink, and developed the Linux middleware for the actuators and sensors on the on-board controller.",
+      "year": 2018
+    },
+
+    {
+      "title": "Racing with Sphero",
+      "imgs": ["images/sphero.png"],
+      "desc": "The project was developed as a technical demonstration at the MathWorks. I worked on setting up the arena for racing with Spheros and testing the software developed in MATLAB. A writeup is available <a href=\"https://blogs.mathworks.com/community/2017/05/05/robot-races-roll-after-hours-at-the-museum/\">here</a>.",
+      "year": 2017
+    },
+
+    {
+      "title": "Machine learning based drug discovery",
+      "imgs": ["images/gtn.png"],
+      "desc": "GTN was a startup for machine learning based drug discovery where I contributed as a freelancer. I worked on software engineering and DevOps for large scale cluster systems to support the research team. The tools included Kubernetes, Kubeflow, Ray Tune, and GCP services.",
+      "year": 2019
+    },
+
+    {
+      "title": "Mergers and acquisitions search tool",
+      "imgs": [""],
+      "desc": "I worked on an internal tool for a mergers and acquisitions firm that helped them to pair pontetial buyers and sellers. The tool gathered relevant data from a company database and provided a list of the most relevant stakeholders. The work involved developing a webapp using Flask, Celery and MySQL.",
+      "year": 2019
+    },
+
+    {
+      "title": "Property crawler",
+      "imgs": [""],
+      "desc": "I worked on a tool for myself as a side-project, that scraped and presented the most relevant ads on the property market for renting. With this tool it was significantly faster to swift through the large amount of properties in London and rate them automatically based on the price, size and commute distance tailored to our needs.",
+      "year": 2019
+    },
+    {
+      "title": "Heterogenous graph learning",
+      "imgs": ["images/hetsage.png"],
+      "desc": "As part of my PhD, I worked on a project that addressed semi-supervised node prediction on heterogeneous graphs, e.g. predicting a genre of a movie based on its connections to other movies and ratings from users. The results were summarised in a paper published at AAAI 2021.",
+      "year": 2020
+    },
+    {
+      "title": "Automation of algorithmic trading infrastructure",
+      "imgs": ["images/argo.png"],
+      "desc": "I worked with Brainpool on their <a href=\"https://forstack.io/\">Forstack</a> product to automate the retraining and deployment pipeline. I used Kubernetes, Helm and Argo for combining the subsystems to create a robust and fast pipeline.",
+      "year": 2020
+    },
+
+    {
+      "title": "Order book based price prediction",
+      "imgs": ["images/orders.png"],
+      "desc": "I worked for a client on a price prediction machine learning model based on fine-grained data (asks, bids and trades). The project posed additional challenges due to the unevenly spaced data, in comparison to OHLCV data that has a constant sampling frequency.",
+      "year": 2019
+    },
+    {
+      "title": "Crypto-currency trading bot",
+      "imgs": ["images/krypto.png"],
+      "desc": "As an internal project, I worked on a crypto trading bot that utilizes the state-of-the-art in deep learning for time series prediction. The model also utilizes some additional preprocessing techniques with a set of technical indicators.",
+      "year": 2020
+    },
+
+    {
+      "title": "Pupil distance measurement tool",
+      "imgs": ["images/pd.png"],
+      "desc": "I worked on an webapp that measures the pupil distance of a user from an image. A combination of machine learning techniques and more traditional image processing tools were used to achieve the required accuracy.",
+      "year": 2020
+    },
+
+    {
+      "title": "Trading bot based on arbitrage",
+      "imgs": ["images/arb.png"],
+      "desc": "I developed a trading bot for a client that utilised market inefficiencies in the form of arbitrage. The speed of decision making was crucial, so the pipeline was written in highly optimised C++ with multi-threaded execution of the workload and asynchronous communication with the crypto-currency marketplace.",
+      "year": 2020
+    },
+
+    {
+      "title": "Business development for dotData",
+      "imgs": ["images/dd.png"],
+      "desc": "I worked as business developer to promote the autoML platform dotData (an NEC spinoff) in the UK.",
+      "year": 2020
     }
   ],
   "academic": [
     {
-      "year": 2021,
       "title": "HetSAGE: Heterogenous Graph Neural Network for Relational Learning",
       "authors": "V. Jankovics, M. Garcia Ortiz, E. Alonso",
-      "venue": "AAAI Proceedings"
+      "venue": "AAAI Proceedings",
+      "year": 2021
     },
     {
-      "year": 2018,
-      "title": "Sketches into Art, V. Jankovics, Guest lecture",
+      "title": "Sketches into Art, Guest lecture",
       "authors": "V. Jankovics",
-      "venue": "University Centre Peterborough"
+      "venue": "University Centre Peterborough",
+      "year": 2018
     },
 
     {
-      "year": 2016,
       "title": "Artificial neural network based compliant control for robot arms",
       "authors": "V. Jankovics, S. Mátéfi-Tempfli and P. Manoonpong",
-      "venue": "Int. Conf. on the Simulation of Adaptive Behavior"
+      "venue": "Int. Conf. on the Simulation of Adaptive Behavior",
+      "year": 2016
     },
 
     {
-      "year": 2014,
       "title": "High resolution tactile sensors for curved robotic fingertips",
       "authors": "A. Drimus, V. Jankovics, M. Gorsic, S. Mátéfi-Tempfli",
-      "venue": "Living Machines Proceedings"
+      "venue": "Living Machines Proceedings",
+      "year": 2014
     },
 
     {
-      "year": 2014,
       "title": "Novel high resolution tactile robotic fingertips",
       "authors": "A. Drimus, V. Jankovics, M. Gorsic. S. Mátéfi-Tempfli",
-      "venue": "IEEE Sensors Proceedings"
+      "venue": "IEEE Sensors Proceedings",
+      "year": 2014
     }
   ]
 }
