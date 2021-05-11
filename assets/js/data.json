@@ -137,7 +137,7 @@
     {
       "title": "Crypto-currency trading bot",
       "imgs": ["images/krypto.png"],
-      "desc": "As an internal project, I worked on a crypto trading bot that utilizes the state-of-the-art in deep learning for time series prediction. The model also utilizes some additional preprocessing techniques with a set of technical indicators.",
+      "desc": "I worked on a crypto trading bot that utilizes the state-of-the-art in deep learning for time series prediction. The model also utilizes some additional preprocessing techniques with a set of technical indicators.",
       "year": 2020
     },
 
@@ -160,6 +160,20 @@
       "imgs": ["images/dd.png"],
       "desc": "I worked as business developer to promote the autoML platform dotData (an NEC spinoff) in the UK.",
       "year": 2020
+    },
+
+    {
+      "title": "Competitive multi-agent reinforcement learning challenge",
+      "imgs": ["images/plark.png"],
+      "desc": "I participated in a challenge at the Alan Turing Institute as a facilitator, which was about developing novel RL agents to compete againts each other in <a href=\"https://github.com/montvieux/plark_ai_public\">Hunting the Plark</a>. Our team explored graph-based state representations and graph neural networks to learn the optimal policy, which showed promising results.",
+      "year": 2021
+    },
+
+    {
+      "title": "Simple Playgroungs reinforcement learning environment",
+      "imgs": ["images/spg.png"],
+      "desc": "I contributed to the <a href=\"https://github.com/mgarciaortiz/simple-playgrounds\">Simple Playgrounds</a> RL environment, which was designed to be fast, scalable and customizable to make a broad range of RL research more achievable. ",
+      "year": 2021
     }
   ],
   "academic": [
