@@ -170,6 +170,13 @@
     },
 
     {
+      "title": "Reinforcement learning based crypto trading bot",
+      "imgs": [""],
+      "desc": "I developed an RL agent for crypto currency trading that uses OHLCV data and technical indicators. The model was trained and backtested with data from the last few years and it showed promising results, outperforming baseline strategies. I evaluated different RL algorithms (PPO, IMPALA) and model architectures (fully connected, convolutional, attention based) to find the best performing agent. I developed the model using Pytorch and Ray, which enables massive scaling to reduce the training time significantly. For backtesting and live trading I used Freqtrade.",
+      "year": 2021
+    },
+
+    {
       "title": "Simple Playgroungs reinforcement learning environment",
       "imgs": ["images/spg.png"],
       "desc": "I contributed to the <a href=\"https://github.com/mgarciaortiz/simple-playgrounds\">Simple Playgrounds</a> RL environment, which was designed to be fast, scalable and customizable to make a broad range of RL research more achievable. ",
