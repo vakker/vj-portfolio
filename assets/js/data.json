@@ -1,6 +1,18 @@
 {
   "projects": [
     {
+      "title": "Pixel-perfect instance segmentation",
+      "imgs": ["images/bmw.png"],
+      "desc": "I developed a deep learning pipeline for an application that required pixel perfect segmentation masks for retail. It involved carefully selecting and combining state-of-the-art models to achieve the required performance. The pipeline helps graphic designers to automate part of their workflow, which increases their throughput drastically.",
+      "year": 2022
+    },
+    {
+      "title": "Process optimization system",
+      "imgs": ["images/PFD.png"],
+      "desc": "I developed a system to find the optimal distillation sequence and parameters for a specified non-ideal mixture. This greatly reduces the time it takes for a process engineer to design a system that meets the requirements.",
+      "year": 2022
+    },
+    {
       "title": "Bachelor Thesis",
       "imgs": ["images/bsc_2.png"],
       "desc": "An Artificial Neural Network based adaptive non-linear control strategy, with highlight on its capability as a compliant control scheme. The thesis involved simulation and control design, mechanical and PCB design, with custom embedded software.",
